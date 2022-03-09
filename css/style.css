@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* Start Section */
+section {
+  display: grid;
+  justify-items: center;
+  padding: 15px;
+  margin: 35px auto;
+}
+.tixt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.tixt h1 {
+  color: #e91e63;
+  font-size: 40px;
+}
+.father {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+.father .box {
+  display: flex;
+  gap: 10px;
+  background-color: #b2c8f3;
+  padding: 30px;
+  text-align: center;
+  flex-direction: column;
+  color: #527dbc;
+  border-radius: 15px;
+}
+.father .box h2 {
+  font-size: 45px;
+}
+.father .box .border {
+  border-top: 1px solid #fff;
+}
+.father .box span {
+  color: #000000a6;
+  line-height: 1.5rem;
+}
+.father .box a {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 15px;
+  padding: 6px;
+  text-decoration: none;
+  color: #e91e63;
+}
+.father .box a:hover {
+  background-color: #ebf1fc;
+}
+.father .red {
+  background-image: linear-gradient(to bottom, #efa8c3, #b2c8f3);
+  border-radius: unset;
+}
+.father .red h5,
+.red h2,
+.red p {
+  color: #e91e63;
+}
+/* End Section */
